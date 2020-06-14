@@ -41,25 +41,8 @@ function enviar(){
 					<div class="respuesta">
 
 
-<!-- Modal -->
-<div class="modal fade" id="mimodalejemplo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Gracias por registrarte</h4>
-      </div>
-      <div class="modal-body">
-        	https://www.google.com.mx
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-       
-      </div>
-    </div>
-  </div>
-</div>
-            <!-- -->
+<!-- Metodo Post -->
+
             <?php
               if(isset($_POST['enviar'])){  
                   if(empty($_POST['nombre']) || empty($_POST['compania']) || empty($_POST['tel']) || empty($_POST['correo']) || empty($_POST['descripcion']) || empty($_POST['g-recaptcha-response'])) {//si estan vacios
@@ -123,7 +106,7 @@ function enviar(){
 	</div>
 
 <!------------------  aqui termina el formulario ---------------------->
-  </section>
+
   
 
 <?php
