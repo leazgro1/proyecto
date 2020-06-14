@@ -5,10 +5,12 @@
 
   <script>
 function enviar(){
-  alert("enviar");
+  alert("nuevo");
 }
 
 </script>
+
+
 
  <!---------------------- Proximos Webinar ----------------------------->
  <div class="proximos-webinar">
