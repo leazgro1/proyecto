@@ -1939,9 +1939,11 @@ background-image: url(../imagen/pp.jpg);
     width: 100%;
   }
 }
-/* ------------------layout para webinar-------------------- */
+/* --layout para webinar-- */
+
 
 .left-side{
+  
   padding-top: 30px;
   /*background: yellowgreen;*/
   width: 60%;
