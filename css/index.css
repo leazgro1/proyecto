@@ -1921,9 +1921,9 @@ background-image: url(../imagen/pp.jpg);
 /* Content */
 .content {
   background-color: white;
-  
   text-align: center;
   color: #016a9c;
+  padding-top: 10px;
 }
 
 /* Responsive layout -hace dos filas */
@@ -2085,3 +2085,6 @@ background-image: url(../imagen/pp.jpg);
 .pop-visible{
   display: block;
 }
+
+/* estilos section partners*/
+

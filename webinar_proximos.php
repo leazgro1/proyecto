@@ -80,30 +80,29 @@ function validaTelefono(valor) {
 }
 </script>
 
-
+<!-- contacto -->
 <div class="proximos-webinar">
   <div class="container">
     <div class="left-side">
       <img src="imagen/webinar/webinar1.png" class="img-fluid" alt="imagen webinar" width="100%">  
     </div>
 
-<!-- contacto -->
-    <div class="right-side">
-	    <div class="contacto-webinar">
-					<div class="registrate">
-						<p>Registrate para obtener el link</p>
-					</div>
-				  	<form name="formu" class="forms" >
-						  <p><input class="input-webinar" type="text" id="nombre" name="nombre" placeholder="Nombre completo" required /></p>
-						  <p><input class="input-webinar" type="text" id="compania" name="compania" placeholder="Empresa" required /></p>
-						  <p><input class="input-webinar" type="tel" id="tel" name="tel" placeholder="Teléfono" required /></p>
-						  <p><input class="input-webinar" type="email" id="email" name="correo" placeholder="Correo Electrónico" required /></p>
-						  <p><textarea class="text-webinar" type="text" id="descripcion" name="descripcion" placeholder="Cuéntanos como te podría ayudar esta herramienta" required></textarea></p>
-              <div class="g-recaptcha" data-sitekey="6LesaPYUAAAAAOU62bIR5KB5cGk5tX5L2JJUYQvP"></div>
-              <br>
-              <a href="#procesar" onclick="enviar()" id="botoncontacto" name="enviar" class="btn-webinar">Enviar</a>
-            </form> 
-			    </div>
+<div class="right-side">
+	<div class="contacto-webinar">
+		<div class="registrate">
+			<p>Registrate para obtener el link</p>
+		</div>
+	  	<form name="formu" class="forms" >
+			  <p><input class="input-webinar" type="text" id="nombre" name="nombre" placeholder="Nombre completo" required /></p>
+			  <p><input class="input-webinar" type="text" id="compania" name="compania" placeholder="Empresa" required /></p>
+			  <p><input class="input-webinar" type="tel" id="tel" name="tel" placeholder="Teléfono" required /></p>
+			  <p><input class="input-webinar" type="email" id="email" name="correo" placeholder="Correo Electrónico" required /></p>
+			  <p><textarea class="text-webinar" type="text" id="descripcion" name="descripcion" placeholder="Cuéntanos como te podría ayudar esta herramienta" required></textarea></p>
+        <div class="g-recaptcha" data-sitekey="6LesaPYUAAAAAOU62bIR5KB5cGk5tX5L2JJUYQvP"></div>
+        <br>
+        <a href="#procesar" onclick="enviar()" id="botoncontacto" name="enviar" class="btn-webinar">Enviar</a>
+        </form> 
+	    </div>
 		</div>
 	</div>
 
