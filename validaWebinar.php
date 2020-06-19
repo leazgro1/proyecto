@@ -22,7 +22,7 @@
         $archivo=fopen("txt-webinar/clientes.txt","a");
         // escribimos la informacion 
         fwrite ($archivo,$contenido);
-        echo "https://www.imaginanet.com/blog/usando-ajax-un-simple-ejemplo-con-php-y-jquery.html";
+        echo "http://ixpia.com.mx";
     }
 
 ?>

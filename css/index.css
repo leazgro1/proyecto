@@ -2088,3 +2088,9 @@ background-image: url(../imagen/pp.jpg);
 
 /* estilos section partners*/
 
+#prueba{
+  width:100px; 
+  height:100px; 
+  background-color:#F00; 
+  display:none
+}
