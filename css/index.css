@@ -2015,7 +2015,7 @@ background-image: url(../imagen/pp.jpg);
 }
 /*ESTILOS POP*/
 .pop-webinar{
-  background-color: #0000008c;
+  background-color: #000000e1;
   width: 100%;
   height: 100;
   right: 0;
@@ -2037,7 +2037,20 @@ background-image: url(../imagen/pp.jpg);
 }
 .pop-title{
   padding: 10px;
-  background-color: blue;
+  background-color: #023859.lista ul
+  {
+     padding-right: 0px;
+     padding-left: 0px;
+     padding-bottom: 0px;
+     padding-top: 0px;
+     margin: 0px;
+  }
+  .lista li
+  {
+     list-style-type: none;
+     display: inline;
+     padding-right: 5px;
+  };
   text-align: center;
   overflow: hidden;
   box-sizing:border-box;
@@ -2068,11 +2081,11 @@ background-image: url(../imagen/pp.jpg);
   padding: 10px;
 }
 .pop-body .pop-control{
-  padding: 5px;
+  padding: 8px;
 }
 .pop-body .pop-control a{
     text-decoration: none;
-    background-color: blue;
+    background-color: #023859;
     padding: 8px;
     font-family: sans-serif;
     font-size: 14px;
@@ -2088,9 +2101,14 @@ background-image: url(../imagen/pp.jpg);
 
 /* estilos section partners*/
 
-#prueba{
-  width:100px; 
-  height:100px; 
-  background-color:#F00; 
-  display:none
+.content-web {
+  background-color: rgb(39, 37, 37);
+  text-align: center;
+  color: #016a9c;
+  padding-top: 10px;
+}
+
+.letter-web{
+  font-size: 130%;
+  color: #CAC1C1;
 }

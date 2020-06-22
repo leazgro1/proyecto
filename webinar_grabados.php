@@ -40,7 +40,7 @@ function enviar(){
           if(!(data == "false")){
             console.log("url:"+data); 
             limpiar();
-            document.getElementById("idPop").innerHTML ='<a href="'+data+'" target="_blank">Click url webinar</a><p>Url webinar: '+data+'</p>';
+            document.getElementById("idPop").innerHTML;
             openModal();
           }
         }
@@ -83,10 +83,13 @@ function validaTelefono(valor) {
 <!-- contacto -->
 <div class="proximos-webinar">
   <div class="container">
+  <div class="left-side">
+      <img src="imagen/webinar/meeting.jpg" class="img-fluid" alt="imagen webinar" width="100%">  
+    </div>
     <div class="right-side">
 	    <div class="contacto-webinar">
 		    <div class="registrate">
-			    <p>Registrate para obtener el link</p>
+			    <p>Registrate para ver los videos</p>
 		    </div>
 	  	  <form name="formu" class="forms" >
 			  <p><input class="input-webinar" type="text" id="nombre" name="nombre" placeholder="Nombre completo" required /></p>
@@ -104,32 +107,56 @@ function validaTelefono(valor) {
 </div>
 
 <!-- aqui termina el formulario -->
-<div class="pop-webinar pop-close" id="pop-webinar">
-  <div class="right-side">
-    <div class="contacto-webinar">
+<div class="pop-webinar pop-close" id="pop-webinar" style="width: 100%; height: 100%; overflow-y: auto;">
+  <div class="container">
+    <div class="pop-space">
       <div class="pop-title">
-      <div class="container">
-    <video width="320" height="240" controls>
-    <source src="videos/nacho_presentacion.mp4" type="video/mp4">
-    <p>Webinar Prueba uno</p>
-    <source src="movie.ogg" type="video/ogg">
-    Your browser does not support the video tag.
-    </video>
- </div>
         <span class="close_pop" onclick="closeModal()">x</span>
       </div>
       <div class="pop-body">
         <div class="pop-text" id="idPop">
-          
+        <div class="row">
+           <div class="column">
+               <div class="content-web">
+               <video width="320" height="240" controls>
+                <source src="videos-webinar/JS.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+                </video>    
+                <div class="letter-web">Webinar Applicare</div>
+               </div>
+           </div>
+
+           <div class="column">
+               <div class="content-web">
+               <video width="320" height="240" controls>
+                <source src="videos-webinar/jquery.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+                </video>   
+                <div class="letter-web">Webinar Foglight</div>
+               </div>
+           </div>
+
+           <div class="column">
+               <div class="content-web">
+               <video width="320" height="240" controls>
+                <source src="videos-webinar/bootstrap.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+                </video>    
+                <div class="letter-web">Webinar Toad</div>
+               </div>
+           </div>
         </div>
-        <div class="pop-control">
+        </div>
+        <!--<div class="pop-control">
           <a href="#close" onclick="closeModal()">Cerrar</a>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
 </div>
-  
 
 <?php
         include("footer.php");
