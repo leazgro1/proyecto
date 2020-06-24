@@ -122,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div><!--
+            <div>
                 <div class="izq">
                     <img u="image" src="imagen/IMG-CONECTA.jpg" />
                 </div>
@@ -173,7 +173,7 @@
                         <a href="http://software.dell.com/solutions/security/" target="_blank">Leer mas..</a>
                     </div>
                 </div>
-            </div>-->
+            </div>
             <div>
                 <div class="izq">
                     <img u="image" src="imagen/IMG-ASEGURA.jpg" />

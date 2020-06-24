@@ -234,6 +234,40 @@ header nav ul li .caret {
   background-size: 1000px;
   background-position: center;
 }
+
+.contenido1 .imagenx3{
+  background-image: url(../imagen/partners/arcturus-slider.png);
+  width: 100%;
+  height: 500px;s
+  z-index: 0;
+  background-size: 1000px;
+  background-position: center;
+}
+
+.contenido1 .imagenx4{
+  background-image: url(../imagen/partners/microfocus-slider.png);
+  width: 100%;
+  height: 500px;
+  z-index: 0;
+  background-size: 1000px;
+  background-position: center;
+}
+.contenido1 .imagenx5{
+  background-image: url(../imagen/partners/progress-slider.png);
+  width: 100%;
+  height: 500px;
+  z-index: 0;
+  background-size: 1000px;
+  background-position: center;
+}
+.contenido1 .imagenx6{
+  background-image: url(../imagen/partners/quest-slider.png);
+  width: 100%;
+  height: 500px;
+  z-index: 0;
+  background-size: 1000px;
+  background-position: center;
+}
 .contenido1 .imagenx .degradado {
     height: 500px;
     background: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.99) 0%,rgba(0, 0, 0, 0) 3%),linear-gradient(to left, rgba(0, 0, 0, 0.99) 0%,rgba(0, 0, 0, 0) 3%);

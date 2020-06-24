@@ -168,7 +168,7 @@
                     </div>
                 </div>
 				
-            </div>
+            </div>  
 
             <div data-p="225.00" style="display: none;">
                 <div class="imagenx2">
@@ -180,9 +180,9 @@
                                 </p>
                                 <p class="two">
                                     Conozca <b style="
-        font-family: arial;
-        color: #3F51B5;
-    ">Foglight</b> y lo que puede hacer para optimizar la gestión del desempeño de sus aplicaciones   
+                                    font-family: arial;
+                                    color: #3F51B5;
+                                    ">Foglight</b> y lo que puede hacer para optimizar la gestión del desempeño de sus aplicaciones   
                                 </p>
                             </div>
                             <div class="accion">
@@ -193,34 +193,96 @@
                     <div class="degradado">
                     </div>
                 </div>
-
             </div>
-            <!--<div data-p="225.00" style="display: none;">
-                <div class="imagenx2">
-                    <div class="enmedio">
+        
+            <div data-p="225.00" style="display: none;">
+				<div class="imagenx3">
+                    <div class="enmedio1">
                         <div class="centro">
                             <div class="titulo">
                                 <p class="one">
-                                    ¿Migracion replicación o Integración de Datos?
+                                Mida y mejore la experiencia del usuario
                                 </p>
                                 <p class="two">
-                                    Conozca <b style="
-        font-family: arial;
-        color: #3F51B5;
-    ">Foglight</b> y lo que puede hacer para optimizar la gestión del desempeño de sus aplicaciones   
+
                                 </p>
                             </div>
                             <div class="accion">
-                                <a class="fancyMedia bot" data-fancybox-type="iframe" href="https://www.youtube.com/embed/ygS_ouUaNus">Ver Video</a>
+                                <a href="https://www.linkedin.com/company/arcturus-technologies-inc-/" target="_blank" class="bot">Ver mas..</a>
                             </div>
                         </div>
                     </div>
                     <div class="degradado">
                     </div>
                 </div>
-        
+            </div>
 
-            </div>-->
+            <div data-p="225.00" style="display: none;">
+				<div class="imagenx4">
+                    <div class="enmedio1">
+                        <div class="centro">
+                            <div class="titulo">
+                                <p class="one">
+                                Potenciar la transformación digital.
+                                </p>
+                                <p class="two">
+
+                                </p>
+                            </div>
+                            <div class="accion">
+                                <a href="https://www.microfocus.com/en-us/home" target="_blank" class="bot">Ver mas..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="degradado">
+                    </div>
+                </div>
+            </div>
+
+            <div data-p="225.00" style="display: none;">
+				<div class="imagenx5">
+                    <div class="enmedio1">
+                        <div class="centro">
+                            <div class="titulo">
+                                <p class="one">
+                                Impulsando el progreso tecnológico. 
+                                </p>
+                                <p class="two">
+
+                                </p>
+                            </div>
+                            <div class="accion">
+                                <a href="https://www.progress.com" target="_blank" class="bot">Ver mas..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="degradado">
+                    </div>
+                </div>
+            </div>
+
+            <div data-p="225.00" style="display: none;">
+				<div class="imagenx6">
+                    <div class="enmedio1">
+                        <div class="centro">
+                            <div class="titulo">
+                                <p class="one">
+                                Administración sencilla del área de TI para un mundo complejo.
+                                </p>
+                                <p class="two">
+
+                                </p>
+                            </div>
+                            <div class="accion">
+                                <a href="" target="_blank" class="bot">Ver mas..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="degradado">
+                    </div>
+                </div>
+            </div>
+            
 
         </div>
         <!-- Bullet Navigator -->
