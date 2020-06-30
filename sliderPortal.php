@@ -274,7 +274,7 @@
                                 </p>
                             </div>
                             <div class="accion">
-                                <a href="" target="_blank" class="bot">Ver mas..</a>
+                                <a href="https://www.quest.com/mx-es/" target="_blank" class="bot">Ver mas..</a>
                             </div>
                         </div>
                     </div>

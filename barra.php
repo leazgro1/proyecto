@@ -20,13 +20,23 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124905450-1"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124905450-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-124905450-1');
+</script> --> 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170998698-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170998698-1');
 </script>
 
 </head>
@@ -91,7 +101,7 @@
 						<li><a href="quest_partner.php" >Quest Software <span class="icon-dot"></span></a></li>
 					</ul>
 				</li>
-				<li class="submenu">
+				<!-- <li class="submenu">
 					<a href="#">
 						<i class="icon-laptop"></i><span class="icono-texto">Webinar</span>
 					</a>
@@ -99,7 +109,7 @@
 						<li><a href="webinar_proximos.php">  <i class= "icon-clock2"> </i> Proximos </a></li>
 						<li><a href="webinar_grabados.php">  <i class = "icon-file-video"> </i> Grabados </a></li>
 					</ul>
-				</li>
+				</li> -->
 				<li><a href="contactos.php"><i class="icon-envelop"></i><span class="icono-texto">Contactanos</span></a></li>
 			</ul>
 		</nav>
