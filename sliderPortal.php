@@ -267,7 +267,7 @@
                         <div class="centro">
                             <div class="titulo">
                                 <p class="one">
-                                Administración sencilla del área de TI para un mundo complejo.
+                                Quest lo ayuda a resolver problemas complejos con soluciones simples.
                                 </p>
                                 <p class="two">
 

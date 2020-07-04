@@ -84,6 +84,7 @@ function validaTelefono(valor) {
 <div class="proximos-webinar">
   <div class="container">
     <div class="left-side">
+      <h2 class="webinars-font">Proximos Webinars</h2>
       <img src="imagen/webinar/webinar1.png" class="img-fluid" alt="imagen webinar" width="100%">  
     </div>
 

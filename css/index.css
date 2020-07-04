@@ -1978,12 +1978,13 @@ background-image: url(../imagen/pp.jpg);
 
 .left-side{
   
-  padding-top: 30px;
+  padding: 10px 15px;
   /*background: yellowgreen;*/
   width: 60%;
   float: left;
 }
 .img-fluid{
+  padding-right: 10px;
   padding-top: 2px;
   border-radius: 20px;
 
@@ -1991,8 +1992,15 @@ background-image: url(../imagen/pp.jpg);
 
 .right-side{
   /*background: #D5CFCE;*/
+  padding: 0px 15px;
   width: 40%;
   float: left;
+
+}
+.webinars-font{
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
 
 }
 .contacto-webinar{
