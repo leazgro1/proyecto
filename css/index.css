@@ -238,7 +238,7 @@ header nav ul li .caret {
 .contenido1 .imagenx3{
   background-image: url(../imagen/partners/arcturus-slider.png);
   width: 100%;
-  height: 500px;s
+  height: 500px;
   z-index: 0;
   background-size: 1000px;
   background-position: center;
@@ -2077,9 +2077,7 @@ background-image: url(../imagen/pp.jpg);
 .pop-space{
   padding: 5px;
 }
-.pop-title{
-  padding: 10px;
-  background-color: #023859.lista ul
+.lista ul
   {
      padding-right: 0px;
      padding-left: 0px;
@@ -2093,6 +2091,10 @@ background-image: url(../imagen/pp.jpg);
      display: inline;
      padding-right: 5px;
   };
+.pop-title{
+  padding: 10px;
+  background-color: #023859;
+  
   text-align: center;
   overflow: hidden;
   box-sizing:border-box;
@@ -2153,4 +2155,31 @@ background-image: url(../imagen/pp.jpg);
 .letter-web{
   font-size: 130%;
   color: #CAC1C1;
+}
+.optionWebinar{
+  border: 1px solid #0000003d;
+    background-color: #1000ff;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 0px 3px 0px #000;
+}
+.optionWebinar-space{
+  padding: 10px;
+}
+.optionWebinar-space li{
+  list-style: none;
+  clear: both;
+  padding: 10px;
+}
+.optionWebinar-space li label{
+  margin-left: 10px;
+}
+.optionWebinar-space li .checkbox{
+  float: left;
+  width: 22px;
+  height: 22px;
+}
+.optionWebinar-space li span{
+  float: left;
+  margin-left: 10px;
 }

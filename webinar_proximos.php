@@ -3,14 +3,23 @@
   ?>
 
 <script type="text/javascript">
+function opcionCheck(){
+  var ap = document.getElementById('applicare');
+  var fo = document.getElementById('foglight');
+  var sql = document.getElementById('sql');
+  var opcion = 0;
+  if(ap.checked){
+    opcion = 1
+  }else if(fo.checked){
+    opcion = 2;
+  }else if(sql.checked){
+    opcion = 3;
+  }
+  return opcion;
+}
 function enviar(){
-
-  var response = grecaptcha.getResponse();
-  /*if(response.length == 0){
-      console.log("captcha no");
-  }else{
-    console.log("captcha");
-  }*/
+  if(opcionCheck() != 0){
+    var response = grecaptcha.getResponse();
   var nombre = document.getElementById("nombre").value;
   var compania = document.getElementById("compania").value;
   var tel = document.getElementById("tel").value;
@@ -40,7 +49,13 @@ function enviar(){
           if(!(data == "false")){
             console.log("url:"+data); 
             limpiar();
-            document.getElementById("idPop").innerHTML ='<a href="'+data+'" target="_blank">Click url webinar</a><p>Url webinar: '+data+'</p>';
+            if(opcionCheck() == 1){
+              document.getElementById("idPop").innerHTML ='<a href="'+data+'" target="_blank">Click url webinar</a><p>Url webinar: '+data+'</p>';
+            }else if(opcionCheck() == 2){
+              document.getElementById("idPop").innerHTML ='<a href="'+data+'" target="_blank">Click url webinar</a><p>Url webinar: '+data+'</p>';
+            }else if(opcionCheck() == 3){
+              document.getElementById("idPop").innerHTML ='<a href="'+data+'" target="_blank">Click url webinar</a><p>Url webinar: '+data+'</p>';
+            }
             openModal();
           }
         }
@@ -49,6 +64,9 @@ function enviar(){
   }else{
     alert("Favor de llenar todos los campos");
   }
+  }else{
+    alert("Selecciona una opcion");
+  }
 }
 function limpiar(){
   var nombre = document.getElementById("nombre").value ="";
@@ -56,6 +74,7 @@ function limpiar(){
   var tel = document.getElementById("tel").value="";
   var email = document.getElementById("email").value="";
   var descripcion = document.getElementById("descripcion").value="";
+  limpiarCheck()
   grecaptcha.reset();
 }
 function openModal(){
@@ -78,6 +97,23 @@ function validaTelefono(valor) {
    return false;
   }
 }
+function checkbox(id){
+  var ap = document.getElementById('applicare');
+  var fo = document.getElementById('foglight');
+  var sql = document.getElementById('sql');
+  ap.checked = false; 
+  fo.checked = false; 
+  sql.checked = false;  
+  document.getElementById(id).checked = true;
+}
+function limpiarCheck(){
+  var ap = document.getElementById('applicare');
+  var fo = document.getElementById('foglight');
+  var sql = document.getElementById('sql');
+  ap.checked = false; 
+  fo.checked = false; 
+  sql.checked = false; 
+}
 </script>
 
 <!-- contacto -->
@@ -85,7 +121,19 @@ function validaTelefono(valor) {
   <div class="container">
     <div class="left-side">
       <h2 class="webinars-font">Proximos Webinars</h2>
-      <img src="imagen/webinar/webinar1.png" class="img-fluid" alt="imagen webinar" width="100%">  
+      <!-- <img src="imagen/webinar/webinar1.png" class="img-fluid" alt="imagen webinar" width="100%"> --> 
+      <div class="optionWebinar">
+        <ul class="optionWebinar-space">
+          <li><p>Elige un webinar y registrate</p></li>
+          <li>
+            <input type="checkbox" onclick="checkbox(this.id)" class="checkbox" name="applicare" id="applicare">
+            <span>Applicare</span>
+          </li>
+          <li><input type="checkbox" onclick="checkbox(this.id)" class="checkbox" name="foglight" id="foglight"><span>Foglight</span></li>
+          <li><input type="checkbox" onclick="checkbox(this.id)" class="checkbox" name="sql" id="sql"><span>SQL PI</span></li>
+          <br>
+        </ul>
+      </div> 
     </div>
 
 <div class="right-side">
