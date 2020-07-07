@@ -16,13 +16,22 @@
         $tel = $_POST['tel']; 
         $correo= $_POST['correo'];
         $desc = $_POST['descripcion']; 
+        $opcion = $_POST['opcion'];
         //creacion de txt
         $contenido=" Nombre: $nombre Empresa: $compania Telefono $tel Correo: $correo Descripcion: $desc";
         $archivo = "";
         $archivo=fopen("txt-webinar/clientes.txt","a");
         // escribimos la informacion 
         fwrite ($archivo,$contenido);
-        echo "http://ixpia.com.mx";
+        $url = "";
+        if($opcion == 1){
+            $url = "http://www.google.com.mx";
+        }else if($opcion == 2){
+            $url = "http://www.facebook.com";
+        }else if($opcion == 3){
+            $url = "http://www.twitter.com";
+        }
+        echo $url;
     }
 
 ?>

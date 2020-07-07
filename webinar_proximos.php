@@ -19,7 +19,7 @@ function opcionCheck(){
 }
 function enviar(){
   if(opcionCheck() != 0){
-    var response = grecaptcha.getResponse();
+  var response = grecaptcha.getResponse();
   var nombre = document.getElementById("nombre").value;
   var compania = document.getElementById("compania").value;
   var tel = document.getElementById("tel").value;
@@ -36,7 +36,8 @@ function enviar(){
         "compania":compania,
         "tel":tel,
         "correo":email,
-        "descripcion":descripcion
+        "descripcion":descripcion,
+        "opcion":opcionCheck()
       };
       $.ajax({
         data: parametros,
@@ -47,15 +48,8 @@ function enviar(){
         },
         success: function(data){
           if(!(data == "false")){
-            console.log("url:"+data); 
             limpiar();
-            if(opcionCheck() == 1){
-              document.getElementById("idPop").innerHTML ='<a href="'+data+'" target="_blank">Click url webinar</a><p>Url webinar: '+data+'</p>';
-            }else if(opcionCheck() == 2){
-              document.getElementById("idPop").innerHTML ='<a href="'+data+'" target="_blank">Click url webinar</a><p>Url webinar: '+data+'</p>';
-            }else if(opcionCheck() == 3){
-              document.getElementById("idPop").innerHTML ='<a href="'+data+'" target="_blank">Click url webinar</a><p>Url webinar: '+data+'</p>';
-            }
+            document.getElementById("idPop").innerHTML ='<a href="'+data+'" target="_blank">Click url webinar</a><p>Url webinar: '+data+'</p>';
             openModal();
           }
         }
