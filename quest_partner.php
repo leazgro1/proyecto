@@ -5,7 +5,7 @@ include("barra.php");
     <body>
         <div class="container">
         <div class="content">
-        <a href="https://www.quest.com/mx-es/" target="_blank"><img src="imagen/partners/quest.png" alt="Quest" style="width:75%">                
+        <a href="https://www.quest.com/mx-es/" target="_blank"><img src="imagen/partners/quest.JPG" alt="Quest" style="width:75%">                
             </div>
          </div>
     </body>

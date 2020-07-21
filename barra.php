@@ -106,8 +106,8 @@
 						<i class="icon-laptop"></i><span class="icono-texto">Webinar</span>
 					</a>
 					<ul class="children">
-						<li><a href="webinar_proximos.php">  <i class= "icon-clock2"> </i> Proxim&oacute;s </a></li>
-						<li><a href="webinar_grabados.php">  <i class = "icon-file-video"> </i> Grabados </a></li>
+						<li><a href="webinar.php">  <i class= "icon-clock2"> </i> Proxim&oacute;s </a></li>
+						<li><a href="webinar_video.php">  <i class = "icon-file-video"> </i> Grabados </a></li>
 					</ul>
 				</li>
 				<li><a href="contactos.php"><i class="icon-envelop"></i><span class="icono-texto">Cont&aacute;ctanos</span></a></li>

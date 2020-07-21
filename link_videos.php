@@ -20,17 +20,17 @@
         //creacion de txt
         $contenido=" Nombre: $nombre Empresa: $compania Telefono $tel Correo: $correo Descripcion: $desc opcion: $opcion";
         $archivo = "";
-        $archivo=fopen("txt-webinar/clientes.txt","a");
+        $archivo=fopen("txt-webinar/webinar_grabados.txt","a");
         // escribimos la informacion 
         fwrite ($archivo,$contenido);
         $url = "";
         if($opcion == 1){
-            $url = "http://www.google.com.mx";
+            $url = "webinar_foglight.php";
         }else if($opcion == 2){
-            $url = "http://www.facebook.com";
-        }else if($opcion == 3){
+            $url = "webinar_applicare.php";
+        }/* else if($opcion == 3){
             $url = "http://www.twitter.com";
-        }
+        } */
         echo $url;
     }
 
