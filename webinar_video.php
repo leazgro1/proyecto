@@ -132,11 +132,11 @@ document.getElementById("checkbox1").checked=false
     }
     .my-row{
         border: 3px solid red;
-    }
-    .my-col{
+    } */
+   /*  .my-col{
         border: 3px dotted blue;
         height: 250px; 
-    }  */  
+    }    */
     .imagen{
         /* The image used */
         background-image: url("imagen/webinar/webinar-gra.jpg");
@@ -147,8 +147,11 @@ document.getElementById("checkbox1").checked=false
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
-        background-repeat: no-repeat;
         background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+        padding: 30px 0;
+        text-shadow: 0 0 10px #878686;
         
     } 
     .letra{
@@ -175,16 +178,16 @@ document.getElementById("checkbox1").checked=false
       border: 10px solid grey;
       border-radius: 5px;
     }
-    .text-white{
+    /* .text-white{
         -webkit-text-stroke: 1px black;
         color: white; 
         font-family: modak; 
-    }
+    }*/
     .text-white2{
         font-size: large;
         -webkit-text-stroke: 1px black;
         color: white; 
-        font-family: modak; 
+        font-family: modak;  
     }
     .text-p{
         font: oblique bold 160% cursive;
@@ -197,8 +200,9 @@ document.getElementById("checkbox1").checked=false
     <div class="container my-container">
         <div class="row my-row text-white">
             <div class="col-sm-12 col-md-12 text-center py-5">
+            <br><br><br>
              <h1 class="display-6"> Webinars Grabados</h1>
-             <p class="letra text-white2">Selecciona uno y reg&iacute;strate</p>
+             <p class="letra ">Selecciona uno y reg&iacute;strate</p>
             </div>
         </div>
     </div>        
@@ -216,7 +220,7 @@ document.getElementById("checkbox1").checked=false
     <div class="row my-row">
         <div class="col-sm-12 col-md-12 my-col letra1">
           <input id="checkbox1" type="checkbox" onclick="check1(this)" name="applicare" class= "font-title" ><span>&nbsp;&nbsp;<strong> Webinar Foglight </strong></span>
-          <br> En este Webinar podras resolver tus dudas y ver el desempeño de tus servidores de aplicación..
+          <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resuelve tus dudas y analiza el desempeño de tus servidores de aplicación..
           
         </div>
     </div>
@@ -224,7 +228,7 @@ document.getElementById("checkbox1").checked=false
     <div class="row my-row">
         <div class="col-sm-12 col-md-12 my-col letra1">
           <input id="checkbox2" type="checkbox" onclick="check2(this)" name="foglight"><span>&nbsp;&nbsp;<strong>Webinar Applicare </strong></span>
-          <br> En este Webinar podras resolver tus dudas y ver el desempeño de tus servidores de aplicación.
+          <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resuelve tus dudas y analiza el desempeño de tus servidores de aplicación.
         </div>
     </div>     
     <hr style="width: 100%; border: 1px solid; opacity: 0.2;">
@@ -233,7 +237,7 @@ document.getElementById("checkbox1").checked=false
         <div class="col-md-6 col-md-offset-3 my-col">
                 <div class="contacto-webinar">
 		            <div class="registrate">
-			            <p>Registrate para obtener el link</p>
+			            <p>Registrate para ver el video</p>
 		            </div>
 	            	<form name="formu" class="forms" >
                         <p><input class="input-webinar" type="text" id="nombre" name="nombre" placeholder="Nombre completo" required /></p>

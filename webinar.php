@@ -126,16 +126,16 @@ document.getElementById("checkbox1").checked=false
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Modak&family=Open+Sans:wght@600&family=Roboto:ital@1&display=swap" rel="stylesheet">
 <style>
-    /* .my-container{
+   /*  .my-container{
         border: 1px solid green;
     }
     .my-row{
         border: 3px solid red;
     }
     .my-col{
-        border: 3px dotted blue; */
-        /* height: 250px; */
-    }
+        border: 3px dotted blue;
+        height: 250px;
+     */}
     .alto{
         height: 200px;
     } 
@@ -143,13 +143,18 @@ document.getElementById("checkbox1").checked=false
         height: 500px;
     }
     .imagen{
-        background-image: url(imagen/meeting.jpg);
-        background-position: 50%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        color: #fff;
-        padding: 30px 0;
-        text-shadow: 0 0 10px #878686;
+      background-image: url(imagen/webinar/meeting.jpg);
+      /* Set a specific height */
+      height: 300px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #fff;
+      padding: 30px 0;
+      text-shadow: 0 0 10px #878686;
     }
     .letra{
         font-family: 'Open Sans', sans-serif;
@@ -182,6 +187,7 @@ document.getElementById("checkbox1").checked=false
     <div class="container my-container">
         <div class="row my-row">
             <div class="col-sm-12 col-md-12 text-center py-5">
+              <br><br><br>
              <h1 class="display-6">Prox&iacute;mos Webinars</h1>
              <p class="letra">Selecciona uno y reg&iacute;strate</p>
             </div>
@@ -191,8 +197,9 @@ document.getElementById("checkbox1").checked=false
 <div class="container my-container">        
     <div class="row my-row">
         <div class="col-sm-12 col-md-12 my-col letra1">
+          <br>
           <input id="checkbox1" type="checkbox" onclick="check1(this)" name="applicare" class= "font-title" ><span>&nbsp;&nbsp;<strong> Applicare </strong></span>
-          <br> Con Applicare podrás ver el desempeño de tus servidores de aplicación.
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbspCon Applicare podrás ver el desempeño de tus servidores de aplicación.</p>
           <p class="letra2">20 agosto 2020 <br> 4pm CST.</p>
         </div>
     </div>
@@ -200,8 +207,8 @@ document.getElementById("checkbox1").checked=false
     <div class="row my-row">
         <div class="col-sm-12 col-md-12 my-col letra1">
           <input id="checkbox2" type="checkbox" onclick="check2(this)" name="foglight"><span>&nbsp;&nbsp;<strong>Foglight </strong></span>
-          <br> Con Foglight podrás ver el desempeño de tus servidores de aplicación.
-          <p class="letra2">20 agosto 2020 <br> 4pm CST.</p>
+          <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbspCon Foglight podrás ver el desempeño de tus servidores de aplicación.
+          <p class="letra2">25 agosto 2020 <br> 4pm CST.</p>
         </div>
     </div>      
     <hr style="width: 100%; border: 1px solid; opacity: 0.2;">
